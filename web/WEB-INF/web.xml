@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>com.codey.servlet.LogOutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addUser</servlet-name>
+        <servlet-class>com.codey.servlet.addUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addUser</servlet-name>
+        <url-pattern>/admin/adduser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteUser</servlet-name>
+        <servlet-class>com.codey.servlet.DeleteUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteUser</servlet-name>
+        <url-pattern>/admin/deleteuser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addNews</servlet-name>
+        <servlet-class>com.codey.servlet.AddNews</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addNews</servlet-name>
+        <url-pattern>/admin/addnews</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateNews</servlet-name>
+        <servlet-class>com.codey.servlet.UpdateNews</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateNews</servlet-name>
+        <url-pattern>/admin/updatenews</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteNews</servlet-name>
+        <servlet-class>com.codey.servlet.DeleteNews</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteNews</servlet-name>
+        <url-pattern>/admin/deletenews</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addMessage</servlet-name>
+        <servlet-class>com.codey.servlet.AddMessage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addMessage</servlet-name>
+        <url-pattern>/admin/addmessage</url-pattern>
+    </servlet-mapping>
+
+    <!--    <servlet>
+            <servlet-name>updateMessage</servlet-name>
+            <servlet-class>com.codey.servlet.UpdateMessage</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>updateMessage</servlet-name>
+            <url-pattern>/admin/updatemessage</url-pattern>
+        </servlet-mapping>-->
+
+    <servlet>
+        <servlet-name>deleteMessage</servlet-name>
+        <servlet-class>com.codey.servlet.DeleteMessage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteMessage</servlet-name>
+        <url-pattern>/admin/deletemessage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addCar</servlet-name>
+        <servlet-class>com.codey.servlet.AddCar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCar</servlet-name>
+        <url-pattern>/admin/addcar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateCar</servlet-name>
+        <servlet-class>com.codey.servlet.UpdateCar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateCar</servlet-name>
+        <url-pattern>/admin/updatecar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteCar</servlet-name>
+        <servlet-class>com.codey.servlet.DeleteCar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteCar</servlet-name>
+        <url-pattern>/admin/deletecar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addOrderForm</servlet-name>
+        <servlet-class>com.codey.servlet.AddOrderForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addOrderForm</servlet-name>
+        <url-pattern>/admin/addorderform</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateOrderForm</servlet-name>
+        <servlet-class>com.codey.servlet.UpdateOrderForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateOrderForm</servlet-name>
+        <url-pattern>/admin/updateorderform</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteOrderForm</servlet-name>
+        <servlet-class>com.codey.servlet.DeleteOrderForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteOrderForm</servlet-name>
+        <url-pattern>/admin/deleteorderform</url-pattern>
+    </servlet-mapping>
+</web-app>
