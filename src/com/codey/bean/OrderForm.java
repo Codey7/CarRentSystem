@@ -12,6 +12,17 @@ public class OrderForm
     private String ordertime;
     private boolean ispay;
 
+    public String pay(boolean ispay)
+    {
+        if (ispay)
+        {
+            return "已支付";
+        }
+        else
+        {
+            return "未支付";
+        }
+    }
     public String getUsername()
     {
         return username;

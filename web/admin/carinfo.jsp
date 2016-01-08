@@ -108,18 +108,25 @@
                             <tr class="even pointer">
                                 <td class="a-center "><input type="checkbox" class="flat"
                                                              name="table_records"></td>
-                                <td class=" "><%=carInfo.getCarname()%></td>
-                                <td class=" "><%=carInfo.getImgpath()%></td>
-                                <td class=" "><%=carInfo.getCarintro()%> <i class="success fa fa-long-arrow-up"></i>
+                                <td class=" "><%=carInfo.getCarname()%>
                                 </td>
-                                <td class=" "><%=carInfo.getCarNum()%></td>
-                                <td class=" "><%=carInfo.getCarprize()%></td>
+                                <td class=" "><%=carInfo.getImgpath()%>
+                                </td>
+                                <td class=" "><%=carInfo.getCarintro()%> <i
+                                        class="success fa fa-long-arrow-up"></i>
+                                </td>
+                                <td class=" "><%=carInfo.getCarNum()%>
+                                </td>
+                                <td class=" "><%=carInfo.getCarprize()%>
+                                </td>
                                 <td class=" last">
                                     <button type="button" class="btn btn-round btn-primary">修改
                                     </button>
-                                    <button style="margin-left: 20px;" type="button"
-                                            class="btn btn-round btn-danger">删除
-                                    </button>
+                                    <a href=<%="../admin/deletecar?carname="+carInfo.getCarname()%>>
+                                        <button style="margin-left: 20px;" type="button"
+                                                class="btn btn-round btn-danger">删除
+                                        </button>
+                                    </a>
                                 </td>
                             </tr>
                             <%

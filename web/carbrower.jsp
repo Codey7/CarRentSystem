@@ -94,12 +94,14 @@
                                             </p>
 
                                             <div class="tools tools-bottom">
-                                                <a href="cardetails.jsp">查看详情</a>
+                                                <a href=<%="cardetails.jsp?carname="+carInfo.getCarname()%> >查看详情</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="caption">
+                                        <a href="cardetails.jsp">
                                         <button class="btn btn-primary" value="预定">预订</button>
+                                            </a>
                                         <span>&#165;<%=carInfo.getCarprize()%>/天</span>
                                     </div>
                                 </div>

@@ -17,7 +17,7 @@ public class Message
         this.time = time;
     }
 
-    public String getUsername(String username)
+    public String getUsername()
     {
         return this.username;
     }

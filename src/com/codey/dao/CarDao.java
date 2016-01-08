@@ -17,6 +17,42 @@ import java.util.ArrayList;
  */
 public class CarDao
 {
+
+    public CarInfo querycarByName(String carname)
+    {
+        Connection conn;
+        JDBCTest jt = new JDBCTest();
+        conn = jt.getConnection();
+        PreparedStatement ps = null;
+
+        CarInfo ci=null;
+        if (jt.getConn())
+        {
+            try
+            {
+                String sql = "select * from carinfo where carname=?";
+                ps=conn.prepareStatement(sql);
+                ps.setString(1,carname);
+                ResultSet rs = ps.executeQuery(sql);
+                while (rs.next())
+                {
+                    ci = new CarInfo();
+                    ci.setCarname(rs.getString("carname"));
+                    ci.setCarintro(rs.getString("carinfo"));
+                    ci.setCarprize(rs.getFloat("carprice"));
+                    ci.setImgpath(rs.getString("imagepath"));
+                    ci.setCarNum(rs.getInt("carnum"));
+                }
+                rs.close();
+                ps.close();
+                conn.close();
+            } catch (SQLException e)
+            {
+                e.printStackTrace();
+            }
+        }
+        return ci;
+    }
     public ArrayList<CarInfo> querycarInfo()
     {
         ArrayList<CarInfo> mList = new ArrayList<>();

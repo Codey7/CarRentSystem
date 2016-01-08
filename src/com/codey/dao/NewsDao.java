@@ -48,7 +48,7 @@ public class NewsDao
             try
             {
                 Statement stat = conn.createStatement();
-                String sql = "select * from news order by news.publishTime desc limit 10";
+                String sql = "select * from news order by news.publishTime desc";
                 ResultSet rs = stat.executeQuery(sql);
                 addToList(mList, rs);
             } catch (SQLException e)

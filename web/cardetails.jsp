@@ -1,4 +1,5 @@
-<%--
+<%@ page import="com.codey.bean.CarInfo" %>
+<%@ page import="com.codey.dao.CarDao" %><%--
   Created by IntelliJ IDEA.
   User: Mr.Codey
   Date: 2016/1/5
@@ -12,6 +13,12 @@
     String basePath = request.getScheme() + "://"
             + request.getServerName() + ":" + request.getServerPort()
             + path + "/";
+%>
+<%!
+    String carname;
+%>
+<%
+    carname = request.getParameter("carname");
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -52,10 +59,16 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="x_content">
-
+                        <%
+                            CarInfo ci = null;
+                            CarDao cd = new CarDao();
+                            ci = cd.querycarByName(carname);
+                            if (ci != null)
+                            {
+                        %>
                         <div class="col-md-7 col-sm-7 col-xs-12">
                             <div class="product-image">
-                                <img src="images/4.jpg" alt="..."/>
+                                <img src=<%=ci.getImgpath()%> alt="..."/>
                             </div>
                             <div class="product_gallery">
                                 <a>
@@ -72,35 +85,29 @@
                                 </a>
                             </div>
                         </div>
-
                         <div class="col-md-5 col-sm-5 col-xs-12" style="border:0px solid #e5e5e5;">
+                            <h3 class="prod_title">
+                                <%=ci.getCarname()%>
+                            </h3>
 
-                            <h3 class="prod_title">LOWA Men’s Renegade GTX Mid Hiking Boots
-                                Review</h3>
-
-                            <p>Raw denim you probably haven't heard of them jean shorts Austin.
-                                Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher
-                                synth. Cosby sweater eu banh mi, qui irure terr.</p>
+                            <p><%=ci.getCarintro()%>
+                            </p>
                             <br/>
                             <br/>
                             <br/>
 
                             <div class="">
                                 <div class="product_price">
-                                    <h1 class="price">Ksh80.00</h1>
-                                    <span class="price-tax">Ex Tax: Ksh80.00</span>
+                                    <h1 class="price"><%=ci.getCarprize()%></h1>
                                     <br>
                                 </div>
                             </div>
-
                             <div class="">
-                                <button type="button" class="btn btn-default btn-lg">Add to Cart
+                                <button type="button" class="btn btn-default btn-lg">立即购买
                                 </button>
-                                <button type="button" class="btn btn-default btn-lg">Add to
-                                    Wishlist
+                                <button type="button" class="btn btn-default btn-lg">收藏
                                 </button>
                             </div>
-
                             <div class="product_social">
                                 <ul class="list-inline">
                                     <li><a href="#"><i class="fa fa-facebook-square"></i></a>
@@ -114,6 +121,16 @@
                                 </ul>
                             </div>
                         </div>
+                        <%
+                        } else
+                        {
+                        %>
+                        <h3>数据加载失败！</h3>
+                        <%
+                            }
+                        %>
+
+
                     </div>
                 </div>
 

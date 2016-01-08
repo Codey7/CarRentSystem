@@ -1,4 +1,6 @@
-<%--
+<%@ page import="com.codey.dao.NewsDao" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="com.codey.bean.News" %><%--
   Created by IntelliJ IDEA.
   User: Mr.Codey
   Date: 2016/1/5
@@ -95,31 +97,30 @@
               </thead>
 
               <tbody>
+              <%
+                ArrayList<News> mList=null;
+                NewsDao nd=new NewsDao();
+                mList=nd.queryNews();
+                for (News news : mList)
+                {
+               %>
               <tr class="even pointer">
                 <td class="a-center "><input type="checkbox" class="flat"
                                              name="table_records"></td>
-                <td class=" ">121000040</td>
-                <td class=" ">May 23, 2014 11:47:56 PM</td>
-                <td class=" ">121000210 <i class="success fa fa-long-arrow-up"></i>
+                <td class=" "><%=news.getTitle()%></td>
+                <td class=" "><%=news.getPublishtime()%></td>
+                <td class=" "><%=news.getUrl()%><i class="success fa fa-long-arrow-up"></i>
                 </td>
-                <td class=" ">John Blan撒发生的发生的发生的发生的发生的发生的发生的法师打发斯蒂芬k L</td>
+                <td class=" "><%=news.getContent()%></td>
                 <td class=" last"><button type="button" class="btn btn-round btn-primary">修改</button>
+                  <a href=<%="../admin/deletenews?id="+news.getId()%>>
                   <button style="margin-left: 20px;" type="button" class="btn btn-round btn-danger">删除</button>
+                  </a>
                 </td>
               </tr>
-              <tr class="odd pointer">
-                <td class="a-center ">
-                  <input type="checkbox" class="flat" name="table_records">
-                </td>
-                <td class=" ">121000039</td>
-                <td class=" ">May 23, 2014 11:30:12 PM</td>
-                <td class=" ">121000208 <i class="success fa fa-long-arrow-up"></i>
-                </td>
-                <td class=" ">John Blank L</td>
-                <td class=" last"><button type="button" class="btn btn-round btn-primary">修改</button>
-                  <button style="margin-left: 20px;" type="button" class="btn btn-round btn-danger">删除</button>
-                </td>
-              </tr>
+              <%
+                }
+              %>
               </tbody>
 
             </table>

@@ -47,6 +47,26 @@
     }
 
 %>
+<%--<script>
+    $(document).ready(function()
+    {
+        $(".change").click(function()
+        {
+           $("#username").append("<p></p>")
+        })
+    })
+
+</script>--%>
+<script>
+    function addtoForm(s)
+    {
+        //var p=document.createElement("p");
+       var input= document.getElementById("adduser");
+        input.innerHTML="<p>"+s+"</p>";
+        input.setAttribute("disabled","disabled")
+
+    }
+</script>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -138,8 +158,10 @@
                                 <td class=" "><%= userInfo.getMoney()%>
                                 </td>
                                 <td class=" last">
-                                    <button type="button" class="btn btn-round btn-primary">修改
+                                    <a href="#row">
+                                    <button type="button" class="change btn btn-round btn-primary" onclick="addtoForm(<%=userInfo.getUsername()%>)">修改
                                     </button>
+                                    </a>
                                     <%--<jsp:forward page="admin/deleteuser"></jsp:forward>--%>
 
                                    <a href=<%="../admin/deleteuser?username="+userInfo.getUsername()%> >
@@ -177,7 +199,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div id="row" class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                     <div class="x_title">
