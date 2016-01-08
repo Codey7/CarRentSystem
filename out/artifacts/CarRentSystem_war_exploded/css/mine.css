@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+.to_register {
+    color: #2196F3;
+    font-size: 18px;
+}
+
+body {
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
+}
+
+.right_col {
+    background-color: white;
+    margin-left: 230px;
+}
+
+.jumbotron {
+    padding-top: 10%;
+    background: rgba(69, 94, 121, 0);
+}
+
+.carousel-caption {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 0;
+    background: rgba(69, 94, 121, 0.2);
+}
+
+.carousel-caption > .jumbotron > .container p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.carousel-inner {
+    overflow: hidden;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    height: 35em;
+    width: 100%;
+    overflow: hidden;
+}
+
+.newpic {
+    float: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+.new-title
+{
+    padding-top: 1em;
+}
+.new-title span
+{
+    font-size: 12px;
+    padding-left: 5em;
+}
+.new-right {
+    float: left;
+    padding-top: 1em;
+}
+.info-tx a
+{
+    color: #000;
+}
+.order_tab
+{
+    text-align: center;
+}
+.table>tbody>tr>td
+{
+    vertical-align: inherit;
+}

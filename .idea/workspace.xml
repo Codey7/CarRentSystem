@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5629b974-8ef6-4f4a-a351-92c53bd5de92" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/bean/CarInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/bean/News.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/bean/UserInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/control/CheckCookies.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/dao/CarDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/dao/NewsDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/dao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/jdbc/JDBCConn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/jdbc/JDBCTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/servlet/DeleteUser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/servlet/LogOutServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/servlet/UpdateUser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/classes/com/codey/servlet/addUser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.36-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/flat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/american-express.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/baoma5xi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/baoshijie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/data.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/lanbo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/news1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/panamera.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/picture-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/picture.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/picture2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/prod1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/prod2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/prod3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/prod4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/prod5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sprite-skin-flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sprite-skin-modern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sprite-skin-nice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/sprite-skin-simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/images/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/as3/lib/AlivePDF.swc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/collection_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/copy_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/csv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/csv_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/pdf_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/print_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/psd/collection.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/psd/copy document.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/psd/file_types.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/psd/printer.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/images/xls_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/swf/copy_csv_xls.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/swf/copy_csv_xls_pdf.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/as3/lib/AlivePDF.swc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/collection_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/copy_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/csv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/csv_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/pdf_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/print_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/psd/collection.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/psd/copy document.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/psd/file_types.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/psd/printer.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/images/xls_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/swf/copy_csv_xls.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/swf/copy_csv_xls_pdf.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/admin/carinfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/admin/common.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/admin/leaveinfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/admin/newsinfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/admin/orderinfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/admin/userinfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/carbrower.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/cardetails.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/common.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/css/demo_page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/css/demo_table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/css/demo_table_jui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/datatables/tools/css/dataTables.tableTools.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/editor/external/google-code-prettify/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/editor/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/floatexamples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/icheck/flat/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/ion.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/ion.rangeSlider.skinFlat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/maps/jquery-jvectormap-2.0.1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/mine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/nprogress.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/progressbar/bootstrap-progressbar-3.3.0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/select/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/css/switchery/switchery.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/autocomplete/countries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/autocomplete/jquery.autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/calendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/chartjs/chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/colorpicker/bootstrap-colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/colorpicker/docs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/cropping/cropper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/cropping/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/cropping/main2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/DataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/api/api.internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/api/api.methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/api/api.static.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.compat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.draw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.info.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.length.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.processing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.scrolling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.sizing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/core/core.support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/ext/ext.classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/ext/ext.paging.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/ext/ext.sorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/ext/ext.types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/model/model.column.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/model/model.defaults.columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/model/model.defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/model/model.ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/model/model.row.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/model/model.search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/src/model/model.settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/Readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/as3/ZeroClipboard.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/as3/ZeroClipboardPdf.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/css/dataTables.tableTools.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/alter_buttons.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/bootstrap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/button_text.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/collection.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/defaults.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/multi_instance.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/multiple_tables.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/new_init.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/pdf_message.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/plug-in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/select_column.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/select_multi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/select_os.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/select_single.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/simple.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/examples/swf_path.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/js/dataTables.tableTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/make.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/src/TableTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/src/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/TableTools-master/src/dataTables.tableTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/as3/ZeroClipboard.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/as3/ZeroClipboardPdf.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/alter_buttons.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/bootstrap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/button_text.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/collection.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/defaults.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/multi_instance.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/multiple_tables.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/new_init.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/pdf_message.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/plug-in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/select_column.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/select_multi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/select_os.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/select_single.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/simple.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/examples/swf_path.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/js/dataTables.tableTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/make.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/src/TableTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/src/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/tools/src/dataTables.tableTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/performance/draw.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/performance/large.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/performance/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/performance/sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/-complex_header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/2512.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/6776.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/complex_header_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/deferred_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/dom_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/dom_data_th.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/dom_data_two_headers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/dymanic_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/empty_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/html_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/js_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/js_data_mixed_types.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/templates/two_tables.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/-complex_header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/-iDraw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2512.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2530-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2530.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2569.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2600.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2608.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2635.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2746-stable-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2799.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2840-restore-table-width.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/2914-state-save-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/5396-fnUpdate-arrays-mData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/5396-fnUpdate-arrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/5508-xscroll-zero-content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/6776-scrolling-table-grows.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/_getDataFunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/_setDataFunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.bVisible2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bInfiniteScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bJQueryUI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bSortCellsTop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnCookieCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnCreatedCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnCreatedRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnDeleteRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnFooterCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnInfoCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnSetColumnVis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/fnSetColumnVis2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/gh125 - stripe stripping.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/html-autodetect-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/sScrollXY.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/1_dom/th_in_body.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/39-nested-null.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/6872-default-content-missing-props.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/8549--string-sorting-nonstrings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/fnCreatedCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/fnCreatedRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/fnFooterCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/js_data_mixed_types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/2_js/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/fnCreatedCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/fnCreatedRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/fnServerData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sLoadingRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/sAjaxDataProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/sAjaxDataProp2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/3_ajax/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/-iDraw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/2440.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/2569.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/2600.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bInfiniteScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/fnCreatedCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/fnCreatedRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/iDeferLoading.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/sAjaxDataProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/4_server-side/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_arrays_subobjects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_deep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_mDataProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_null_source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_objects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/_zero_config_objects_subarrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/fnServerData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/5_ajax_objects/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/_zero_config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aaSorting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aaSortingFixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.bSearchable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.bSortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.bUseRendered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.bVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.fnRender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.iDataSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sClass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/aoSearchCols.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/asStripClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bAutoWidth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bServerSide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bSort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/bSortClasses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnDrawCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnHeaderCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnInitComplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnRowCallback.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/fnServerData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/iDisplayLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.oPaginate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sInfoEmpty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sInfoPostFix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sLengthMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sProcessing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oLanguage.sZeroRecords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/oSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/sAjaxDataProp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/sAjaxDataProp2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/sAjaxSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/sDom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/tests_onhold/6_delayed_rendering/sPaginationType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datatables/unit_testing/unit_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/datepicker/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/dropzone/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/easypie/jquery.easypiechart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/echart/echarts-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/echart/green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/bootstrap-wysiwyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-apollo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-clj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-hs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-lisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-llvm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-matlab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-mumps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-proto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-rd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-scala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-tex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-vb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-vhdl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-wiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-xq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/lang-yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/google-code-prettify/run_prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/editor/external/jquery.hotkeys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/curvedLines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/jquery.flot.orderBars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/jquery.flot.spline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/jquery.flot.time.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/flot/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/gauge/gauge.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/gauge/gauge_demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/icheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/input_mask/jquery.inputmask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/ion_range/ion.rangeSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/knob/jquery.knob.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/maps/gdp-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/maps/jquery-jvectormap-2.0.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/maps/jquery-jvectormap-us-aea-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/maps/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/maps/us-unemployment.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/moris/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/moris/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/moris/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/moris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/moris/raphael-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/nicescroll/jquery.nicescroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/notify/pnotify.buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/notify/pnotify.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/notify/pnotify.nonblock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/nprogress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/parsley/parsley.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/progressbar/bootstrap-progressbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/select/select2.full.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/sidebar/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/sidebar/component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/sidebar/modernizr.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/sidebar/sidebarEffects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/skycons/skycons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/sparkline/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/switchery/switchery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/tags/jquery.tagsinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/textarea/autosize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/validator/validator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/js/wizard/jquery.smartWizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/message.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/mine.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/myorderform.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/page_404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/CarRentSystem_war_exploded/page_500.html" />
+    </list>
+    <ignored path="CarRentSystem.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CarRentSystem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.7333333">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/common.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0666666">
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userinfo.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/admin/userinfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21100917">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/mine.jsp" />
+        <option value="$PROJECT_DIR$/web/message.jsp" />
+        <option value="$PROJECT_DIR$/web/userinfo.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/new.jsp" />
+        <option value="$PROJECT_DIR$/web/css/mine.css" />
+        <option value="$PROJECT_DIR$/src/com/codey/control/CheckCookies.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/LogOutServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servelt/LogOutServlet.java" />
+        <option value="$PROJECT_DIR$/web/common.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/common.jsp" />
+        <option value="$PROJECT_DIR$/src/com/codey/bean/UserInfo.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/codey/servelt/DeleteUser.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servelt/addUser.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/jdbc/JDBCTest.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/jdbc/JDBCConn.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servelt/UpdateUser.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/UpdateUser.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/bean/CarInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/bean/News.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/dao/MessageDao.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/dao/OrderFormDao.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/addUser.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/updateNes.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/addNew.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/deleteNew.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/updateNew.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/addMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/deleteMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/DeleteMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/AddCar.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/DeleteCar.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/UpdateCar.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/AddOrderForm.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/DeleteOrderForm.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/UpdateOrderForm.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/servlet/UpdateMessage.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/codey/dao/NewsDao.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/bean/Message.java" />
+        <option value="$PROJECT_DIR$/src/com/codey/bean/OrderForm.java" />
+        <option value="$PROJECT_DIR$/web/carbrower.jsp" />
+        <option value="$PROJECT_DIR$/src/com/codey/dao/CarDao.java" />
+        <option value="$PROJECT_DIR$/web/cardetails.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/newsinfo.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/carinfo.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/leaveinfo.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/orderinfo.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/userinfo.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarRentSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\学科资料\Java&amp;javaweb\CarRentSystem\web\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学科资料\Java&amp;javaweb\CarRentSystem\web\admin" />
+      <recent name="F:\学科资料\Java&amp;javaweb\CarRentSystem\src" />
+      <recent name="F:\学科资料\Java&amp;javaweb\CarRentSystem\web" />
+      <recent name="F:\学科资料\Java&amp;javaweb\CarRentSystem\web\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration default="false" name="login.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/CarRentSystem/login.jsp">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/CarRentSystem/index.jsp">
+      <method />
+    </configuration>
+    <configuration default="false" name="common.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/CarRentSystem/common.jsp">
+      <method />
+    </configuration>
+    <configuration default="false" name="message.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/message.jsp" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="CarRentSystem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="message_jsp_CarRentSystem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CarRentSystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CarRentSystem" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CarRentSystem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CarRentSystem" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CarRentSystem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51993" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CarRentSystem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.jsp" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.common.jsp" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.message.jsp" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.message.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.common.jsp" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.login.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StatisticProjectComponent">
+    <option name="excludeCompilerOutput" value="true" />
+    <option name="excludeIdea9ArtifactDirectory" value="true" />
+    <option name="excludeGitArtifactDirectory" value="true" />
+    <option name="excludeSubversionArtifactDirectory" value="true" />
+    <option name="excludeDotArtifactDirectory" value="false" />
+    <option name="excludeTargetDirectories" value="true" />
+    <option name="activateWhenOpenProject" value="false" />
+    <option name="excludedDirectories">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="fileTypes" value="class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5629b974-8ef6-4f4a-a351-92c53bd5de92" name="Default" comment="" />
+      <created>1451918967668</created>
+      <option name="number" value="Default" />
+      <updated>1451918967668</updated>
+      <workItem from="1451918972355" duration="2035000" />
+      <workItem from="1451952917555" duration="29080000" />
+      <workItem from="1452047466991" duration="271000" />
+      <workItem from="1452048025609" duration="80000" />
+      <workItem from="1452048436560" duration="24477000" />
+      <workItem from="1452131732598" duration="14505000" />
+      <workItem from="1452169973403" duration="12577000" />
+      <workItem from="1452182657747" duration="423000" />
+      <workItem from="1452219433688" duration="1267000" />
+      <workItem from="1452231007344" duration="6023000" />
+    </task>
+    <task id="LOCAL-00001" summary="基本功能实现完成，管理员页面除用户管理外，其他管理的修改功能未实现，留言回复功能为实现">
+      <created>1452237276377</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452237276377</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="90738000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328152" sideWeight="0.4969651" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328152" sideWeight="0.5030349" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328152" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35924006" sideWeight="0.4946581" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19170985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17450683" sideWeight="0.47680414" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30224526" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886191" sideWeight="0.52319586" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基本功能实现完成，管理员页面除用户管理外，其他管理的修改功能未实现，留言回复功能为实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本功能实现完成，管理员页面除用户管理外，其他管理的修改功能未实现，留言回复功能为实现" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/mine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.433333">
+          <caret line="64" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/myorderform.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6338798">
+          <caret line="137" column="54" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/message.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2">
+          <caret line="105" column="73" selection-start-line="105" selection-start-column="73" selection-end-line="105" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_15/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="901" column="11" selection-start-line="901" selection-start-column="11" selection-end-line="901" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.321543">
+          <caret line="9" column="109387" selection-start-line="9" selection-start-column="109387" selection-end-line="9" selection-end-column="109387" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.398827">
+          <caret line="5894" column="11" selection-start-line="5894" selection-start-column="11" selection-end-line="5894" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/mine.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4305284">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/news1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://E:/xampp/tomcat/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3484603">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5304878">
+          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/LogOutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44972068">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/bean/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75914633">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#197#198#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="false" />
+            <element signature="e#262#263#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2804878">
+          <caret line="193" column="7" selection-start-line="193" selection-start-column="7" selection-end-line="193" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/control/CheckCookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8072626">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/jdbc/JDBCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57821226">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/bean/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39117646">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#141#142#0" expanded="false" />
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_15/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33235294">
+          <caret line="292" column="9" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.755882">
+          <caret line="170" column="31" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/bean/CarInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1882353">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/jdbc/JDBCConn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06764706">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/DeleteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2029412">
+          <caret line="40" column="9" selection-start-line="19" selection-start-column="8" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/UpdateNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6617647">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/DeleteNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7970588">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/addUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9470588">
+          <caret line="43" column="13" selection-start-line="40" selection-start-column="12" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/AddNews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9470588">
+          <caret line="46" column="9" selection-start-line="43" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/UpdateUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="75" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/AddMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/UpdateCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/AddCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7294118">
+          <caret line="21" column="43" selection-start-line="20" selection-start-column="8" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/DeleteCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/UpdateOrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60882354">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/AddOrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45882353">
+          <caret line="55" column="5" selection-start-line="17" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/UpdateMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38938054">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/dao/NewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <marker date="1452219637396" expanded="true" signature="714:771" placeholder="select * fro... news" />
+            <marker date="1452219637396" expanded="true" signature="1355:1404" placeholder="select * fro... news" />
+            <marker date="1452219637396" expanded="true" signature="2317:2384" placeholder="INSERT INTO news... " />
+            <marker date="1452219637396" expanded="true" signature="3288:3362" placeholder="UPDATE `news... " />
+            <marker date="1452219637396" expanded="true" signature="4289:4318" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/dao/MessageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1452176748831" expanded="true" signature="795:838" placeholder="select * fro... message" />
+            <marker date="1452176748831" expanded="true" signature="1969:2030" placeholder="INSERT INTO message... " />
+            <marker date="1452176748831" expanded="true" signature="2857:2904" placeholder="UPDATE messa... " />
+            <marker date="1452176748831" expanded="true" signature="2857:2918" placeholder="UPDATE messa... " />
+            <marker date="1452176748831" expanded="true" signature="3798:3833" placeholder="DELETE FROM " />
+            <marker date="1452176748831" expanded="true" signature="3798:3847" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/bean/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#384#385#0" expanded="false" />
+            <element signature="e#424#425#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/dao/OrderFormDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1452177447233" expanded="true" signature="892:937" placeholder="select * fro... message" />
+            <marker date="1452177447233" expanded="true" signature="2281:2409" placeholder="INSERT INTO `orderform`... " />
+            <marker date="1452177447233" expanded="true" signature="2281:2411" placeholder="INSERT INTO `orderform`... " />
+            <marker date="1452177447233" expanded="true" signature="3366:3427" placeholder="UPDATE messa... " />
+            <marker date="1452177447233" expanded="true" signature="3366:3451" placeholder="UPDATE `orde... " />
+            <marker date="1452177447233" expanded="true" signature="4365:4419" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/bean/OrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/dao/CarDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <marker date="1452232050925" expanded="true" signature="704:741" placeholder="select * fro... carinfo" />
+            <marker date="1452232050925" expanded="true" signature="1873:1894" placeholder="select * fro..carinfo..." />
+            <marker date="1452232050925" expanded="true" signature="2967:3058" placeholder="INSERT INTO carinfo... " />
+            <marker date="1452232050925" expanded="true" signature="2967:3060" placeholder="INSERT INTO carinfo... " />
+            <marker date="1452232050925" expanded="true" signature="2967:3064" placeholder="INSERT INTO carinfo... " />
+            <marker date="1452232050925" expanded="true" signature="3985:4063" placeholder="UPDATE carin... " />
+            <marker date="1452232050925" expanded="true" signature="4967:5004" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cardetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.2776413">
+          <caret line="83" column="71" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/carbrower.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5085995">
+          <caret line="96" column="91" selection-start-line="96" selection-start-column="91" selection-end-line="96" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/carinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.366667">
+          <caret line="124" column="100" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/DeleteMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47368422">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/leaveinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73464376">
+          <caret line="121" column="79" selection-start-line="121" selection-start-column="79" selection-end-line="121" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codey/servlet/DeleteOrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/newsinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42705572">
+          <caret line="115" column="45" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/orderinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.95086">
+          <caret line="123" column="79" selection-start-line="123" selection-start-column="79" selection-end-line="123" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7333333">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.051597">
+          <caret line="185" column="59" selection-start-line="185" selection-start-column="59" selection-end-line="185" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0666666">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/userinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21100917">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CarRentSystem:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>IntelliJ IDEA IU-141.2735.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CarRentSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.36-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
