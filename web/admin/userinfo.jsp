@@ -58,13 +58,11 @@
 
 </script>--%>
 <script>
-    function addtoForm(s)
-    {
+    function addtoForm(s) {
         //var p=document.createElement("p");
-       var input= document.getElementById("adduser");
-        input.innerHTML="<p>"+s+"</p>";
-        input.setAttribute("disabled","disabled")
-
+        var input = document.getElementById("adduser");
+        input.innerHTML = "<p>" + s + "</p>";
+        input.setAttribute("disabled", "disabled")
     }
 </script>
 <!DOCTYPE html>
@@ -159,17 +157,19 @@
                                 </td>
                                 <td class=" last">
                                     <a href="#row">
-                                    <button type="button" class="change btn btn-round btn-primary" onclick="addtoForm(<%=userInfo.getUsername()%>)">修改
-                                    </button>
+                                        <button type="button"
+                                                class="change btn btn-round btn-primary"
+                                                onclick="addtoForm(<%=userInfo.getUsername()%>)">修改
+                                        </button>
                                     </a>
                                     <%--<jsp:forward page="admin/deleteuser"></jsp:forward>--%>
 
-                                   <a href=<%="../admin/deleteuser?username="+userInfo.getUsername()%> >
-                                    <button
-                                            style="margin-left: 20px;" type="submit"
-                                            class="btn btn-round btn-danger">删除
-                                    </button>
-                                   </a>
+                                    <a href=<%="../admin/deleteuser?username="+userInfo.getUsername()%>>
+                                        <button
+                                                style="margin-left: 20px;" type="submit"
+                                                class="btn btn-round btn-danger">删除
+                                        </button>
+                                    </a>
                                 </td>
                             </tr>
                             <%
